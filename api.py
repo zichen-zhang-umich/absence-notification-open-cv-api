@@ -43,7 +43,7 @@ def mainWork(img):
         elif cmdType.value == 4.0:
             inputValue = sheet1.row(i)[1].value
             pyperclip.copy(inputValue)
-            pyautogui.hotkey('ctrl','v')
+            pyautogui.hotkey('command','v')
             time.sleep(0.5)
             print("Type:",inputValue) 
 
