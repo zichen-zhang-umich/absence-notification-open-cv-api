@@ -1,3 +1,6 @@
+# a program for messenger automation
+
+
 import pyautogui
 import time
 import xlrd
@@ -109,6 +112,7 @@ def mainWork(img):
             pyautogui.scroll(int(scroll))
             print("Scroll",int(scroll)," distance")                      
         i += 1
+
 
 if __name__ == '__main__':
     file = 'cmd.xls'
